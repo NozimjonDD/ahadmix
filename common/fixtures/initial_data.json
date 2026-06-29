@@ -1,0 +1,5026 @@
+[
+  {
+    "model": "common.sitesettings",
+    "pk": 1,
+    "fields": {
+      "phone": "+998 94 657-33-33",
+      "email": "info@ahadmix.uz",
+      "address_ru": "г. Ташкент, проспект Бунёдкора, 8а",
+      "address_uz": "Toshkent sh., Bunyodkor shoh ko'chasi, 8a",
+      "address_en": "Tashkent, Bunyodkor avenue 8a",
+      "telegram_link": "https://linktr.ee/ahadmix_group",
+      "screens_count": 70,
+      "years_on_market": 16,
+      "brand_partners_count": 500,
+      "kp_pdf": ""
+    }
+  },
+  {
+    "model": "common.statisticcard",
+    "pk": 1,
+    "fields": {
+      "count": "70",
+      "title_ru": "LED-экранов в Ташкенте",
+      "title_uz": "Toshkentdagi LED-ekranlar",
+      "title_en": "LED screens in Tashkent",
+      "plus": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "common.statisticcard",
+    "pk": 2,
+    "fields": {
+      "count": "16",
+      "title_ru": "лет на рынке наружной рекламы",
+      "title_uz": "yil tashqi reklama bozorida",
+      "title_en": "years on the OOH market",
+      "plus": false,
+      "order": 2
+    }
+  },
+  {
+    "model": "common.statisticcard",
+    "pk": 3,
+    "fields": {
+      "count": "500",
+      "title_ru": "брендов-партнёров",
+      "title_uz": "hamkor brendlar",
+      "title_en": "partner brands",
+      "plus": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "common.statisticcard",
+    "pk": 4,
+    "fields": {
+      "count": "24",
+      "title_ru": "часа в сутки — режим вещания",
+      "title_uz": "soat — efir rejimi",
+      "title_en": "hours/day broadcasting",
+      "plus": false,
+      "order": 4
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 1,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"12\" r=\"3\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>",
+      "title_ru": "70+ экранов по всему Ташкенту",
+      "title_uz": "Toshkent bo'ylab 70+ ekran",
+      "title_en": "70+ screens across Tashkent",
+      "description_ru": "Сеть охватывает все районы города — от центральных перекрёстков до главных магистралей и крупных торговых центров.",
+      "description_uz": "Tarmoq shaharning barcha tumanlarini — markaziy chorrahalardan tortib asosiy magistrallar va yirik savdo markazlarigacha qamrab oladi.",
+      "description_en": "Our network covers every district of the city — from central crossroads to main avenues and major shopping malls.",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 2,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"9\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"12\" cy=\"12\" r=\"5\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\" fill=\"currentColor\"/></svg>",
+      "title_ru": "Точное попадание в аудиторию",
+      "title_uz": "Auditoriyaga aniq yetkazib berish",
+      "title_en": "Right audience, right place",
+      "description_ru": "Подбираем локации под вашу задачу: жилые районы, бизнес-кварталы, рынки и ТРЦ — там, где находится ваш клиент.",
+      "description_uz": "Lokatsiyalarni vazifangizga moslab tanlaymiz: turar joy tumanlari, biznes-kvartallar, bozorlar va savdo markazlari — mijozingiz turgan joyda.",
+      "description_en": "We tailor locations to your task: residential areas, business districts, markets and malls — wherever your customer is.",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 3,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M13 2L4 14h7l-1 8 9-12h-7l1-8z\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+      "title_ru": "Быстрый запуск кампании",
+      "title_uz": "Kampaniyani tezkor ishga tushirish",
+      "title_en": "Fast campaign launch",
+      "description_ru": "От подписания договора до выхода в эфир — несколько рабочих дней. Подготовим медиаплан под ваш бюджет.",
+      "description_uz": "Shartnoma imzolanganidan efirga chiqqunga qadar — bir necha ish kuni. Byudjetingizga moslab mediareja tayyorlaymiz.",
+      "description_en": "From contract signing to going live — a few working days. We'll prepare a media plan that fits your budget.",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 4,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"1.6\"/><path d=\"M8 8h8M8 12h8M8 16h5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></svg>",
+      "title_ru": "Прозрачная отчётность",
+      "title_uz": "Shaffof hisobot",
+      "title_en": "Transparent reporting",
+      "description_ru": "После кампании присылаем видеоотчёт и статистику выходов по каждому экрану — вы видите, за что заплатили.",
+      "description_uz": "Kampaniyadan keyin har bir ekran bo'yicha videohisobot va efirga chiqishlar statistikasini yuboramiz — siz nima uchun to'laganingizni ko'rasiz.",
+      "description_en": "After the campaign we send a video report and broadcast statistics for each screen — you see what you paid for.",
+      "order": 4
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 5,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M9 12l2 2 4-4\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+      "title_ru": "16 лет на рынке",
+      "title_uz": "Bozorda 16 yil",
+      "title_en": "16 years on the market",
+      "description_ru": "Работаем с 2010 года. Более 500 брендов уже размещали рекламу в нашей сети — от международных корпораций до локальных компаний.",
+      "description_uz": "2010-yildan beri faoliyat yuritamiz. Tarmog'imizda 500 dan ortiq brend reklama joylashtirgan — xalqaro korporatsiyalardan tortib mahalliy kompaniyalargacha.",
+      "description_en": "Operating since 2010. Over 500 brands have already advertised in our network — from global corporations to local companies.",
+      "order": 5
+    }
+  },
+  {
+    "model": "common.whyuscard",
+    "pk": 6,
+    "fields": {
+      "icon_svg": "<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M21 12a9 9 0 10-18 0v4a2 2 0 002 2h2v-7H5a7 7 0 0114 0h-2v7h2a2 2 0 002-2v-4z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/></svg>",
+      "title_ru": "Поддержка на каждом этапе",
+      "title_uz": "Har bir bosqichda yordam",
+      "title_en": "Support at every step",
+      "description_ru": "Персональный менеджер сопровождает кампанию от заявки до отчёта. Технические специалисты на связи 24/7.",
+      "description_uz": "Shaxsiy menejer kampaniyani arizadan hisobotgacha kuzatib boradi. Texnik mutaxassislar 24/7 aloqada.",
+      "description_en": "A personal manager guides the campaign from request to report. Technical specialists are available 24/7.",
+      "order": 6
+    }
+  },
+  {
+    "model": "common.processcard",
+    "pk": 1,
+    "fields": {
+      "number": 1,
+      "title_ru": "Заявка",
+      "title_uz": "Ariza",
+      "title_en": "Request",
+      "description_ru": "Вы оставляете заявку или звоните нам. Менеджер уточняет задачу, аудиторию и бюджет.",
+      "description_uz": "Siz ariza qoldirasiz yoki bizga qo'ng'iroq qilasiz. Menejer vazifa, auditoriya va byudjetni aniqlaydi.",
+      "description_en": "You leave a request or call us. The manager clarifies the task, audience and budget."
+    }
+  },
+  {
+    "model": "common.processcard",
+    "pk": 2,
+    "fields": {
+      "number": 2,
+      "title_ru": "Медиаплан",
+      "title_uz": "Mediareja",
+      "title_en": "Media plan",
+      "description_ru": "Подбираем экраны, частоту показов и сроки. Согласуем с вами расчёт стоимости.",
+      "description_uz": "Ekranlar, namoyish chastotasi va muddatlarni tanlaymiz. Narx hisobini siz bilan kelishamiz.",
+      "description_en": "We pick the screens, frequency and timing. We agree on the cost calculation with you."
+    }
+  },
+  {
+    "model": "common.processcard",
+    "pk": 3,
+    "fields": {
+      "number": 3,
+      "title_ru": "Договор и материалы",
+      "title_uz": "Shartnoma va material",
+      "title_en": "Contract & creative",
+      "description_ru": "Подписываем договор, проверяем технические требования к ролику и принимаем материалы в эфир.",
+      "description_uz": "Shartnomani imzolaymiz, rolikning texnik talablarini tekshiramiz va materiallarni efirga qabul qilamiz.",
+      "description_en": "We sign the contract, check the technical requirements for the clip and accept materials for broadcast."
+    }
+  },
+  {
+    "model": "common.processcard",
+    "pk": 4,
+    "fields": {
+      "number": 4,
+      "title_ru": "Эфир и отчёт",
+      "title_uz": "Efir va hisobot",
+      "title_en": "Broadcast & report",
+      "description_ru": "Реклама выходит в эфир по согласованному графику. После завершения присылаем видеоотчёт.",
+      "description_uz": "Reklama kelishilgan jadval bo'yicha efirga chiqadi. Tugagandan so'ng videohisobot yuboramiz.",
+      "description_en": "Ads go on air on the agreed schedule. After completion we send a video report."
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 1,
+    "fields": {
+      "title": "ГУМ БОЛЬШОЙ ФОРМАТ",
+      "title_uz": "ГУМ БОЛЬШОЙ ФОРМАТ",
+      "title_en": "ГУМ БОЛЬШОЙ ФОРМАТ",
+      "location": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "location_uz": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "location_en": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "district": "Шайхонтохурский район",
+      "size": "30×10 м",
+      "format": "30×10 м",
+      "type_display": "LED",
+      "resolution": "1920×640",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "soon",
+      "image": "",
+      "video": "",
+      "latitude": 41.32239,
+      "longitude": 69.23567,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 1,
+    "fields": {
+      "monitor": 1,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "18 000 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 2,
+    "fields": {
+      "monitor": 1,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "28 000 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 3,
+    "fields": {
+      "monitor": 1,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "38 000 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 2,
+    "fields": {
+      "title": "PIRAMIT TOWER",
+      "title_uz": "PIRAMIT TOWER",
+      "title_en": "PIRAMIT TOWER",
+      "location": "Яккасарайский район пересечение улиц Бобур и Мукумий",
+      "location_uz": "Яккасарайский район пересечение улиц Бобур и Мукумий",
+      "location_en": "Яккасарайский район пересечение улиц Бобур и Мукумий",
+      "district": "Яккасарайский район",
+      "size": "48×8 м",
+      "format": "48×8 м",
+      "type_display": "LED",
+      "resolution": "3072×512",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "live",
+      "image": "",
+      "video": "videos/piramit-tower.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 4,
+    "fields": {
+      "monitor": 2,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "18 000 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 5,
+    "fields": {
+      "monitor": 2,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "28 000 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 6,
+    "fields": {
+      "monitor": 2,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "38 000 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 3,
+    "fields": {
+      "title": "1-Нотариальный",
+      "title_uz": "1-Нотариальный",
+      "title_en": "1-Нотариальный",
+      "location": "Яккасарайский район пересечение улиц Мукумий и Бобура",
+      "location_uz": "Яккасарайский район пересечение улиц Мукумий и Бобура",
+      "location_en": "Яккасарайский район пересечение улиц Мукумий и Бобура",
+      "district": "Яккасарайский район",
+      "size": "41×10 м",
+      "format": "41×10 м",
+      "type_display": "LED",
+      "resolution": "2624×640",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "live",
+      "image": "",
+      "video": "videos/notarialka.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 7,
+    "fields": {
+      "monitor": 3,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "18 000 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 8,
+    "fields": {
+      "monitor": 3,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "28 000 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 9,
+    "fields": {
+      "monitor": 3,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "38 000 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 4,
+    "fields": {
+      "title": "БЫВШ. ГОСТ. РОССИЯ",
+      "title_uz": "БЫВШ. ГОСТ. РОССИЯ",
+      "title_en": "БЫВШ. ГОСТ. РОССИЯ",
+      "location": "Яккасарайский район пересечение улиц Шота Руставели и Мирабад",
+      "location_uz": "Яккасарайский район пересечение улиц Шота Руставели и Мирабад",
+      "location_en": "Яккасарайский район пересечение улиц Шота Руставели и Мирабад",
+      "district": "Яккасарайский район",
+      "size": "16×8 м",
+      "format": "16×8 м",
+      "type_display": "LED",
+      "resolution": "1024×512",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/rossiya.mp4",
+      "latitude": 41.29578,
+      "longitude": 69.26938,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 4
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 10,
+    "fields": {
+      "monitor": 4,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 11,
+    "fields": {
+      "monitor": 4,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 12,
+    "fields": {
+      "monitor": 4,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 5,
+    "fields": {
+      "title": "Tashkent Airport",
+      "title_uz": "Tashkent Airport",
+      "title_en": "Tashkent Airport",
+      "location": "Аэропорт г. Ташкент",
+      "location_uz": "Аэропорт г. Ташкент",
+      "location_en": "Аэропорт г. Ташкент",
+      "district": "Аэропорт",
+      "size": "9,6×3,7 м",
+      "format": "9,6×3,7 м",
+      "type_display": "LED",
+      "resolution": "576×384",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "videos/tashkent-airport.jpg",
+      "video": "",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 5
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 13,
+    "fields": {
+      "monitor": 5,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 14,
+    "fields": {
+      "monitor": 5,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 15,
+    "fields": {
+      "monitor": 5,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 6,
+    "fields": {
+      "title": "Сагбон",
+      "title_uz": "Сагбон",
+      "title_en": "Сагбон",
+      "location": "Шайхонтохурский район пересечение улиц Малая Кольцевая и Сагбон",
+      "location_uz": "Шайхонтохурский район пересечение улиц Малая Кольцевая и Сагбон",
+      "location_en": "Шайхонтохурский район пересечение улиц Малая Кольцевая и Сагбон",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/sagbon.mp4",
+      "latitude": 41.34093,
+      "longitude": 69.2315,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 6
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 16,
+    "fields": {
+      "monitor": 6,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 17,
+    "fields": {
+      "monitor": 6,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 18,
+    "fields": {
+      "monitor": 6,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 7,
+    "fields": {
+      "title": "Шевченко",
+      "title_uz": "Шевченко",
+      "title_en": "Шевченко",
+      "location": "Мирабадский район пересечение улиц Шахрисабзская и Тараса Шевченко",
+      "location_uz": "Мирабадский район пересечение улиц Шахрисабзская и Тараса Шевченко",
+      "location_en": "Мирабадский район пересечение улиц Шахрисабзская и Тараса Шевченко",
+      "district": "Мирабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/shevchenko.mp4",
+      "latitude": 41.30118,
+      "longitude": 69.27621,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 7
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 19,
+    "fields": {
+      "monitor": 7,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 20,
+    "fields": {
+      "monitor": 7,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 21,
+    "fields": {
+      "monitor": 7,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 8,
+    "fields": {
+      "title": "Успенка",
+      "title_uz": "Успенка",
+      "title_en": "Успенка",
+      "location": "Мирзо Улугбекский район пересечение улиц Садык Азимова и Махтумкули.",
+      "location_uz": "Мирзо Улугбекский район пересечение улиц Садык Азимова и Махтумкули.",
+      "location_en": "Мирзо Улугбекский район пересечение улиц Садык Азимова и Махтумкули.",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/uspenka.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 8
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 22,
+    "fields": {
+      "monitor": 8,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 23,
+    "fields": {
+      "monitor": 8,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 24,
+    "fields": {
+      "monitor": 8,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 9,
+    "fields": {
+      "title": "Гостиница Тата",
+      "title_uz": "Гостиница Тата",
+      "title_en": "Гостиница Тата",
+      "location": "Мирзо Улугбекский район пересечение улиц Шахрисабзская и Узбекистон овози.",
+      "location_uz": "Мирзо Улугбекский район пересечение улиц Шахрисабзская и Узбекистон овози.",
+      "location_en": "Мирзо Улугбекский район пересечение улиц Шахрисабзская и Узбекистон овози.",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/tata.mp4",
+      "latitude": 41.31172,
+      "longitude": 69.28668,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 9
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 25,
+    "fields": {
+      "monitor": 9,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 26,
+    "fields": {
+      "monitor": 9,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 27,
+    "fields": {
+      "monitor": 9,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 10,
+    "fields": {
+      "title": "Абай",
+      "title_uz": "Абай",
+      "title_en": "Абай",
+      "location": "Шайхонтохурский район пересечение ул. Абай и проспекта Алишера Навои",
+      "location_uz": "Шайхонтохурский район пересечение ул. Абай и проспекта Алишера Навои",
+      "location_en": "Шайхонтохурский район пересечение ул. Абай и проспекта Алишера Навои",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/abay.mp4",
+      "latitude": 41.32092,
+      "longitude": 69.25493,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 10
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 28,
+    "fields": {
+      "monitor": 10,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 29,
+    "fields": {
+      "monitor": 10,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 30,
+    "fields": {
+      "monitor": 10,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 11,
+    "fields": {
+      "title": "Урда",
+      "title_uz": "Урда",
+      "title_en": "Урда",
+      "location": "Шайхонтохурский район пересечение проспекта Алишера Навои и ул Лабзак.",
+      "location_uz": "Шайхонтохурский район пересечение проспекта Алишера Навои и ул Лабзак.",
+      "location_en": "Шайхонтохурский район пересечение проспекта Алишера Навои и ул Лабзак.",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/urda.mp4",
+      "latitude": 41.32073,
+      "longitude": 69.26438,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 11
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 31,
+    "fields": {
+      "monitor": 11,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 32,
+    "fields": {
+      "monitor": 11,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 33,
+    "fields": {
+      "monitor": 11,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 12,
+    "fields": {
+      "title": "Орзу",
+      "title_uz": "Орзу",
+      "title_en": "Орзу",
+      "location": "Шайхонтохурский район пересечение проспекта Фараби и ул Малая Кольцевая",
+      "location_uz": "Шайхонтохурский район пересечение проспекта Фараби и ул Малая Кольцевая",
+      "location_en": "Шайхонтохурский район пересечение проспекта Фараби и ул Малая Кольцевая",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/orzu.mp4",
+      "latitude": 41.33909,
+      "longitude": 69.20655,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 12
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 34,
+    "fields": {
+      "monitor": 12,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 35,
+    "fields": {
+      "monitor": 12,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 36,
+    "fields": {
+      "monitor": 12,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 13,
+    "fields": {
+      "title": "Пожарка",
+      "title_uz": "Пожарка",
+      "title_en": "Пожарка",
+      "location": "Юнусабадский район пересечение улиц Шарафа Рашидова и Осиё.",
+      "location_uz": "Юнусабадский район пересечение улиц Шарафа Рашидова и Осиё.",
+      "location_en": "Юнусабадский район пересечение улиц Шарафа Рашидова и Осиё.",
+      "district": "Юнусабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/pozharka-1.mp4",
+      "latitude": 41.3288,
+      "longitude": 69.27482,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 13
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 37,
+    "fields": {
+      "monitor": 13,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 38,
+    "fields": {
+      "monitor": 13,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 39,
+    "fields": {
+      "monitor": 13,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 14,
+    "fields": {
+      "title": "Госпиталка",
+      "title_uz": "Госпиталка",
+      "title_en": "Госпиталка",
+      "location": "Мирабадский район пересечение улиц Нукусская и Авлиё Ота",
+      "location_uz": "Мирабадский район пересечение улиц Нукусская и Авлиё Ота",
+      "location_en": "Мирабадский район пересечение улиц Нукусская и Авлиё Ота",
+      "district": "Мирабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/gospitalka.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 14
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 40,
+    "fields": {
+      "monitor": 14,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 41,
+    "fields": {
+      "monitor": 14,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 42,
+    "fields": {
+      "monitor": 14,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 15,
+    "fields": {
+      "title": "ТРЦ NEXT",
+      "title_uz": "ТРЦ NEXT",
+      "title_en": "ТРЦ NEXT",
+      "location": "Чиланзарский район пересечение улиц Сэульская и Фурката",
+      "location_uz": "Чиланзарский район пересечение улиц Сэульская и Фурката",
+      "location_en": "Чиланзарский район пересечение улиц Сэульская и Фурката",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/trc-next.mp4",
+      "latitude": 41.3009,
+      "longitude": 69.24852,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 15
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 43,
+    "fields": {
+      "monitor": 15,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 44,
+    "fields": {
+      "monitor": 15,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 45,
+    "fields": {
+      "monitor": 15,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 16,
+    "fields": {
+      "title": "Чорсу",
+      "title_uz": "Чорсу",
+      "title_en": "Чорсу",
+      "location": "Шайхонтохурский район пересечение проспекта Беруний и ул. Лайлитугон.",
+      "location_uz": "Шайхонтохурский район пересечение проспекта Беруний и ул. Лайлитугон.",
+      "location_en": "Шайхонтохурский район пересечение проспекта Беруний и ул. Лайлитугон.",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/chorsu.mp4",
+      "latitude": 41.32487,
+      "longitude": 69.23176,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 16
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 46,
+    "fields": {
+      "monitor": 16,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 47,
+    "fields": {
+      "monitor": 16,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 48,
+    "fields": {
+      "monitor": 16,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 17,
+    "fields": {
+      "title": "Петушок",
+      "title_uz": "Петушок",
+      "title_en": "Петушок",
+      "location": "Юнусабадский район пересечение улиц Ахмад Дониш и Ахилобод",
+      "location_uz": "Юнусабадский район пересечение улиц Ахмад Дониш и Ахилобод",
+      "location_en": "Юнусабадский район пересечение улиц Ахмад Дониш и Ахилобод",
+      "district": "Юнусабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/petushok.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 17
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 49,
+    "fields": {
+      "monitor": 17,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 50,
+    "fields": {
+      "monitor": 17,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 51,
+    "fields": {
+      "monitor": 17,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 18,
+    "fields": {
+      "title": "Кадышева",
+      "title_uz": "Кадышева",
+      "title_en": "Кадышева",
+      "location": "Яшнабадский район пересечение улиц Авиасозлар и Бешарыкская",
+      "location_uz": "Яшнабадский район пересечение улиц Авиасозлар и Бешарыкская",
+      "location_en": "Яшнабадский район пересечение улиц Авиасозлар и Бешарыкская",
+      "district": "Яшнабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/kadysheva.mp4",
+      "latitude": 41.28759,
+      "longitude": 69.34906,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 18
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 52,
+    "fields": {
+      "monitor": 18,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 53,
+    "fields": {
+      "monitor": 18,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 54,
+    "fields": {
+      "monitor": 18,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 19,
+    "fields": {
+      "title": "Лабзак",
+      "title_uz": "Лабзак",
+      "title_en": "Лабзак",
+      "location": "Шайхонтохурский район пересечение улиц Зулфияхоним и Лабзак",
+      "location_uz": "Шайхонтохурский район пересечение улиц Зулфияхоним и Лабзак",
+      "location_en": "Шайхонтохурский район пересечение улиц Зулфияхоним и Лабзак",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/labzak.mp4",
+      "latitude": 41.32976,
+      "longitude": 69.26318,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 19
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 55,
+    "fields": {
+      "monitor": 19,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 56,
+    "fields": {
+      "monitor": 19,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 57,
+    "fields": {
+      "monitor": 19,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 20,
+    "fields": {
+      "title": "Лакокраска",
+      "title_uz": "Лакокраска",
+      "title_en": "Лакокраска",
+      "location": "Мирзо Улугбекский район улица Малая Кольцевая",
+      "location_uz": "Мирзо Улугбекский район улица Малая Кольцевая",
+      "location_en": "Мирзо Улугбекский район улица Малая Кольцевая",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/lakokraska.mp4",
+      "latitude": 41.33353,
+      "longitude": 69.30343,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 20
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 58,
+    "fields": {
+      "monitor": 20,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 59,
+    "fields": {
+      "monitor": 20,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 60,
+    "fields": {
+      "monitor": 20,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 21,
+    "fields": {
+      "title": "МВД",
+      "title_uz": "МВД",
+      "title_en": "МВД",
+      "location": "Яккасарайский район пересечение улиц Мирабад и Сарабустон",
+      "location_uz": "Яккасарайский район пересечение улиц Мирабад и Сарабустон",
+      "location_en": "Яккасарайский район пересечение улиц Мирабад и Сарабустон",
+      "district": "Яккасарайский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/mvd.mp4",
+      "latitude": 41.30223,
+      "longitude": 69.26594,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 21
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 61,
+    "fields": {
+      "monitor": 21,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 62,
+    "fields": {
+      "monitor": 21,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 63,
+    "fields": {
+      "monitor": 21,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 22,
+    "fields": {
+      "title": "Алгоритм",
+      "title_uz": "Алгоритм",
+      "title_en": "Алгоритм",
+      "location": "Чиланзарский район пересечение улиц Заргарлик и Согалли Ота",
+      "location_uz": "Чиланзарский район пересечение улиц Заргарлик и Согалли Ота",
+      "location_en": "Чиланзарский район пересечение улиц Заргарлик и Согалли Ота",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/algoritm.mp4",
+      "latitude": 41.26182,
+      "longitude": 69.1642,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 22
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 64,
+    "fields": {
+      "monitor": 22,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 65,
+    "fields": {
+      "monitor": 22,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 66,
+    "fields": {
+      "monitor": 22,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 23,
+    "fields": {
+      "title": "Сергели",
+      "title_uz": "Сергели",
+      "title_en": "Сергели",
+      "location": "Сергелийский район пересечение улиц Янги Сергели и Мехригиё",
+      "location_uz": "Сергелийский район пересечение улиц Янги Сергели и Мехригиё",
+      "location_en": "Сергелийский район пересечение улиц Янги Сергели и Мехригиё",
+      "district": "Сергелийский район",
+      "size": "7×3 м",
+      "format": "7×3 м",
+      "type_display": "LED",
+      "resolution": "448×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/sergeli.mp4",
+      "latitude": 41.22702,
+      "longitude": 69.21934,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 23
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 67,
+    "fields": {
+      "monitor": 23,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 68,
+    "fields": {
+      "monitor": 23,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 69,
+    "fields": {
+      "monitor": 23,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 24,
+    "fields": {
+      "title": "Домбрабад",
+      "title_uz": "Домбрабад",
+      "title_en": "Домбрабад",
+      "location": "Чиланзарский район пересечение улиц Малая Кольцевая и Чиланзар",
+      "location_uz": "Чиланзарский район пересечение улиц Малая Кольцевая и Чиланзар",
+      "location_en": "Чиланзарский район пересечение улиц Малая Кольцевая и Чиланзар",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/dombrabad.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 24
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 70,
+    "fields": {
+      "monitor": 24,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 71,
+    "fields": {
+      "monitor": 24,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 72,
+    "fields": {
+      "monitor": 24,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 25,
+    "fields": {
+      "title": "Новый Ташми",
+      "title_uz": "Новый Ташми",
+      "title_en": "Новый Ташми",
+      "location": "Алмазарский район пересечение улиц Фараби и Большая Кольцевая",
+      "location_uz": "Алмазарский район пересечение улиц Фараби и Большая Кольцевая",
+      "location_en": "Алмазарский район пересечение улиц Фараби и Большая Кольцевая",
+      "district": "Алмазарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/novy-tashmi.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 25
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 73,
+    "fields": {
+      "monitor": 25,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 74,
+    "fields": {
+      "monitor": 25,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 75,
+    "fields": {
+      "monitor": 25,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 26,
+    "fields": {
+      "title": "Рисовый базар",
+      "title_uz": "Рисовый базар",
+      "title_en": "Рисовый базар",
+      "location": "Яшнабадский район пересечение улиц Фаргона Йули и Мухтор Ашрафий",
+      "location_uz": "Яшнабадский район пересечение улиц Фаргона Йули и Мухтор Ашрафий",
+      "location_en": "Яшнабадский район пересечение улиц Фаргона Йули и Мухтор Ашрафий",
+      "district": "Яшнабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/risovy-bazar.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 26
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 76,
+    "fields": {
+      "monitor": 26,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 77,
+    "fields": {
+      "monitor": 26,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 78,
+    "fields": {
+      "monitor": 26,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 27,
+    "fields": {
+      "title": "НБУ Старт",
+      "title_uz": "НБУ Старт",
+      "title_en": "НБУ Старт",
+      "location": "Мирзо Улугбекский район улица ул Аккурган",
+      "location_uz": "Мирзо Улугбекский район улица ул Аккурган",
+      "location_en": "Мирзо Улугбекский район улица ул Аккурган",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/nbu-start.mp4",
+      "latitude": 41.32486,
+      "longitude": 69.30443,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 27
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 79,
+    "fields": {
+      "monitor": 27,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 80,
+    "fields": {
+      "monitor": 27,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 81,
+    "fields": {
+      "monitor": 27,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 28,
+    "fields": {
+      "title": "Крестик",
+      "title_uz": "Крестик",
+      "title_en": "Крестик",
+      "location": "Яшнабадский район пересечение улиц Чулпан и Ахангаранское шоссе",
+      "location_uz": "Яшнабадский район пересечение улиц Чулпан и Ахангаранское шоссе",
+      "location_en": "Яшнабадский район пересечение улиц Чулпан и Ахангаранское шоссе",
+      "district": "Яшнабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/krestik.mp4",
+      "latitude": 41.29307,
+      "longitude": 69.35635,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 28
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 82,
+    "fields": {
+      "monitor": 28,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 83,
+    "fields": {
+      "monitor": 28,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 84,
+    "fields": {
+      "monitor": 28,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 29,
+    "fields": {
+      "title": "Чимган",
+      "title_uz": "Чимган",
+      "title_en": "Чимган",
+      "location": "Мирзо Улугбекский район пересечение улиц Мирзо Улугбека и Темур Малика",
+      "location_uz": "Мирзо Улугбекский район пересечение улиц Мирзо Улугбека и Темур Малика",
+      "location_en": "Мирзо Улугбекский район пересечение улиц Мирзо Улугбека и Темур Малика",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/chimgan.mp4",
+      "latitude": 41.35048,
+      "longitude": 69.35232,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 29
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 85,
+    "fields": {
+      "monitor": 29,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 86,
+    "fields": {
+      "monitor": 29,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 87,
+    "fields": {
+      "monitor": 29,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 30,
+    "fields": {
+      "title": "Бывший Пед. институт",
+      "title_uz": "Бывший Пед. институт",
+      "title_en": "Бывший Пед. институт",
+      "location": "Яккасарайский район пересечение улиц Юсуфа Хос Ходжиба и Бобура",
+      "location_uz": "Яккасарайский район пересечение улиц Юсуфа Хос Ходжиба и Бобура",
+      "location_en": "Яккасарайский район пересечение улиц Юсуфа Хос Ходжиба и Бобура",
+      "district": "Яккасарайский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/ped-institut.mp4",
+      "latitude": 41.29396,
+      "longitude": 69.25118,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 30
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 88,
+    "fields": {
+      "monitor": 30,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 89,
+    "fields": {
+      "monitor": 30,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 90,
+    "fields": {
+      "monitor": 30,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 31,
+    "fields": {
+      "title": "Humo Arena",
+      "title_uz": "Humo Arena",
+      "title_en": "Humo Arena",
+      "location": "Чиланзарский район ул Афросиёб",
+      "location_uz": "Чиланзарский район ул Афросиёб",
+      "location_en": "Чиланзарский район ул Афросиёб",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/humo-arena-6.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 31
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 91,
+    "fields": {
+      "monitor": 31,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 92,
+    "fields": {
+      "monitor": 31,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 93,
+    "fields": {
+      "monitor": 31,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 32,
+    "fields": {
+      "title": "Узгариш",
+      "title_uz": "Узгариш",
+      "title_en": "Узгариш",
+      "location": "Сергелийский район Улица Садий",
+      "location_uz": "Сергелийский район Улица Садий",
+      "location_en": "Сергелийский район Улица Садий",
+      "district": "Сергелийский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/uzgarish.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 32
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 94,
+    "fields": {
+      "monitor": 32,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 95,
+    "fields": {
+      "monitor": 32,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 96,
+    "fields": {
+      "monitor": 32,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 33,
+    "fields": {
+      "title": "Спорт Товары",
+      "title_uz": "Спорт Товары",
+      "title_en": "Спорт Товары",
+      "location": "Чиланзарский район пересечение улиц Чарх Комолон и Мукумий 176",
+      "location_uz": "Чиланзарский район пересечение улиц Чарх Комолон и Мукумий 176",
+      "location_en": "Чиланзарский район пересечение улиц Чарх Комолон и Мукумий 176",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/sport-tovary.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 33
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 97,
+    "fields": {
+      "monitor": 33,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 98,
+    "fields": {
+      "monitor": 33,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 99,
+    "fields": {
+      "monitor": 33,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 34,
+    "fields": {
+      "title": "Корасарай",
+      "title_uz": "Корасарай",
+      "title_en": "Корасарай",
+      "location": "Алмазарский район пересечение улиц Карасарай и Малая Кольцевая",
+      "location_uz": "Алмазарский район пересечение улиц Карасарай и Малая Кольцевая",
+      "location_en": "Алмазарский район пересечение улиц Карасарай и Малая Кольцевая",
+      "district": "Алмазарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/korasaray.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 34
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 100,
+    "fields": {
+      "monitor": 34,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 101,
+    "fields": {
+      "monitor": 34,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 102,
+    "fields": {
+      "monitor": 34,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 35,
+    "fields": {
+      "title": "Самарканд Дарваза",
+      "title_uz": "Самарканд Дарваза",
+      "title_en": "Самарканд Дарваза",
+      "location": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Караташ",
+      "location_uz": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Караташ",
+      "location_en": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Караташ",
+      "district": "Шайхонтохурский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/samarkand-darvoza.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 35
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 103,
+    "fields": {
+      "monitor": 35,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 104,
+    "fields": {
+      "monitor": 35,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 105,
+    "fields": {
+      "monitor": 35,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 36,
+    "fields": {
+      "title": "Мечеть Минор",
+      "title_uz": "Мечеть Минор",
+      "title_en": "Мечеть Минор",
+      "location": "Юнусабадский район Т-образный перекресток улиц Малая кольцева и Ш Рашидова",
+      "location_uz": "Юнусабадский район Т-образный перекресток улиц Малая кольцева и Ш Рашидова",
+      "location_en": "Юнусабадский район Т-образный перекресток улиц Малая кольцева и Ш Рашидова",
+      "district": "Юнусабадский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/mechet-minor.mp4",
+      "latitude": 41.33519,
+      "longitude": 69.27945,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 36
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 106,
+    "fields": {
+      "monitor": 36,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 107,
+    "fields": {
+      "monitor": 36,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 108,
+    "fields": {
+      "monitor": 36,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 37,
+    "fields": {
+      "title": "ТРЦ Флешка — Малика",
+      "title_uz": "ТРЦ Флешка — Малика",
+      "title_en": "ТРЦ Флешка — Малика",
+      "location": "Юнусабадский район улица Малая Кольцевая",
+      "location_uz": "Юнусабадский район улица Малая Кольцевая",
+      "location_en": "Юнусабадский район улица Малая Кольцевая",
+      "district": "Юнусабадский район",
+      "size": "7×4 м",
+      "format": "7×4 м",
+      "type_display": "LED",
+      "resolution": "448×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/trc-fleshka-malika.mp4",
+      "latitude": 41.33845,
+      "longitude": 69.2736,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 37
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 109,
+    "fields": {
+      "monitor": 37,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 110,
+    "fields": {
+      "monitor": 37,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 111,
+    "fields": {
+      "monitor": 37,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 38,
+    "fields": {
+      "title": "Дружба Народов",
+      "title_uz": "Дружба Народов",
+      "title_en": "Дружба Народов",
+      "location": "Шайхонтохурский район пересечение улиц Караташ и Бунёдкор",
+      "location_uz": "Шайхонтохурский район пересечение улиц Караташ и Бунёдкор",
+      "location_en": "Шайхонтохурский район пересечение улиц Караташ и Бунёдкор",
+      "district": "Шайхонтохурский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/druzhba-narodov.mp4",
+      "latitude": 41.31163,
+      "longitude": 69.24001,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 38
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 112,
+    "fields": {
+      "monitor": 38,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 113,
+    "fields": {
+      "monitor": 38,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 114,
+    "fields": {
+      "monitor": 38,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 39,
+    "fields": {
+      "title": "ГУМ",
+      "title_uz": "ГУМ",
+      "title_en": "ГУМ",
+      "location": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "location_uz": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "location_en": "Шайхонтохурский район пересечение улиц Самарканд Дарвоза и Беруний",
+      "district": "Шайхонтохурский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/gum.mp4",
+      "latitude": 41.32239,
+      "longitude": 69.23567,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 39
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 115,
+    "fields": {
+      "monitor": 39,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 116,
+    "fields": {
+      "monitor": 39,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 117,
+    "fields": {
+      "monitor": 39,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 40,
+    "fields": {
+      "title": "Автодорожный институт",
+      "title_uz": "Автодорожный институт",
+      "title_en": "Автодорожный институт",
+      "location": "Мирабадский район пересечение улиц Шахрисабз и",
+      "location_uz": "Мирабадский район пересечение улиц Шахрисабз и",
+      "location_en": "Мирабадский район пересечение улиц Шахрисабз и",
+      "district": "Мирабадский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/avtodorozhny-institut.mp4",
+      "latitude": 41.30313,
+      "longitude": 69.27931,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 40
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 118,
+    "fields": {
+      "monitor": 40,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 119,
+    "fields": {
+      "monitor": 40,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 120,
+    "fields": {
+      "monitor": 40,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 41,
+    "fields": {
+      "title": "Метро Ойбек",
+      "title_uz": "Метро Ойбек",
+      "title_en": "Метро Ойбек",
+      "location": "Мирабадский район пересечение улиц Шахрисабз и Афросиёб",
+      "location_uz": "Мирабадский район пересечение улиц Шахрисабз и Афросиёб",
+      "location_en": "Мирабадский район пересечение улиц Шахрисабз и Афросиёб",
+      "district": "Мирабадский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/oybek.mp4",
+      "latitude": 41.29936,
+      "longitude": 69.27332,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 41
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 121,
+    "fields": {
+      "monitor": 41,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 122,
+    "fields": {
+      "monitor": 41,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 123,
+    "fields": {
+      "monitor": 41,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 42,
+    "fields": {
+      "title": "Паркентская",
+      "title_uz": "Паркентская",
+      "title_en": "Паркентская",
+      "location": "Мирзо Улугбекский район пересечение проспекта Мирзо-Улугбека и ул. Паркентская",
+      "location_uz": "Мирзо Улугбекский район пересечение проспекта Мирзо-Улугбека и ул. Паркентская",
+      "location_en": "Мирзо Улугбекский район пересечение проспекта Мирзо-Улугбека и ул. Паркентская",
+      "district": "Мирзо Улугбекский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/parkentskaya.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 42
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 124,
+    "fields": {
+      "monitor": 42,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 125,
+    "fields": {
+      "monitor": 42,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 126,
+    "fields": {
+      "monitor": 42,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 43,
+    "fields": {
+      "title": "Циолковский",
+      "title_uz": "Циолковский",
+      "title_en": "Циолковский",
+      "location": "Яшнабадский район пересечение улиц Паркент и Олтин Тепа",
+      "location_uz": "Яшнабадский район пересечение улиц Паркент и Олтин Тепа",
+      "location_en": "Яшнабадский район пересечение улиц Паркент и Олтин Тепа",
+      "district": "Яшнабадский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/tsiolkovsky.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 43
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 127,
+    "fields": {
+      "monitor": 43,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 128,
+    "fields": {
+      "monitor": 43,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 129,
+    "fields": {
+      "monitor": 43,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 44,
+    "fields": {
+      "title": "Урикзар",
+      "title_uz": "Урикзар",
+      "title_en": "Урикзар",
+      "location": "Учтепинский район улица Ташкентская кольцевая",
+      "location_uz": "Учтепинский район улица Ташкентская кольцевая",
+      "location_en": "Учтепинский район улица Ташкентская кольцевая",
+      "district": "Учтепинский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/urikzar.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 44
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 130,
+    "fields": {
+      "monitor": 44,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 131,
+    "fields": {
+      "monitor": 44,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 132,
+    "fields": {
+      "monitor": 44,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 45,
+    "fields": {
+      "title": "Заркайнар",
+      "title_uz": "Заркайнар",
+      "title_en": "Заркайнар",
+      "location": "пересечение улиц Сакичмон и Фараби",
+      "location_uz": "пересечение улиц Сакичмон и Фараби",
+      "location_en": "пересечение улиц Сакичмон и Фараби",
+      "district": "пересечение улиц",
+      "size": "7×4 м",
+      "format": "7×4 м",
+      "type_display": "LED",
+      "resolution": "448×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/zarkaynar.mp4",
+      "latitude": 41.3291,
+      "longitude": 69.2363,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 45
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 133,
+    "fields": {
+      "monitor": 45,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 134,
+    "fields": {
+      "monitor": 45,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 135,
+    "fields": {
+      "monitor": 45,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 46,
+    "fields": {
+      "title": "Ашхабад",
+      "title_uz": "Ашхабад",
+      "title_en": "Ашхабад",
+      "location": "Яшнабадский район пересечение пр. М-Улугбека и ул. Махтумкули",
+      "location_uz": "Яшнабадский район пересечение пр. М-Улугбека и ул. Махтумкули",
+      "location_en": "Яшнабадский район пересечение пр. М-Улугбека и ул. Махтумкули",
+      "district": "Яшнабадский район",
+      "size": "9×4 м",
+      "format": "9×4 м",
+      "type_display": "LED",
+      "resolution": "576×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/ashkhabad.mp4",
+      "latitude": 41.30584,
+      "longitude": 69.3065,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 46
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 136,
+    "fields": {
+      "monitor": 46,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 137,
+    "fields": {
+      "monitor": 46,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 138,
+    "fields": {
+      "monitor": 46,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 47,
+    "fields": {
+      "title": "Алайский",
+      "title_uz": "Алайский",
+      "title_en": "Алайский",
+      "location": "Юнусабадский район Проспект Амира Темура",
+      "location_uz": "Юнусабадский район Проспект Амира Темура",
+      "location_en": "Юнусабадский район Проспект Амира Темура",
+      "district": "Юнусабадский район",
+      "size": "4×7 м",
+      "format": "4×7 м",
+      "type_display": "LED",
+      "resolution": "256×448",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/alayskiy.mp4",
+      "latitude": 41.32112,
+      "longitude": 69.28232,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 47
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 139,
+    "fields": {
+      "monitor": 47,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 140,
+    "fields": {
+      "monitor": 47,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 141,
+    "fields": {
+      "monitor": 47,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 48,
+    "fields": {
+      "title": "Метро Чиланзар",
+      "title_uz": "Метро Чиланзар",
+      "title_en": "Метро Чиланзар",
+      "location": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "location_uz": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "location_en": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/metro-chilanzar-1.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 48
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 142,
+    "fields": {
+      "monitor": 48,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 143,
+    "fields": {
+      "monitor": 48,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 144,
+    "fields": {
+      "monitor": 48,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 49,
+    "fields": {
+      "title": "Метро Чиланзар (2)",
+      "title_uz": "Метро Чиланзар (2)",
+      "title_en": "Метро Чиланзар (2)",
+      "location": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "location_uz": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "location_en": "Чиланзарский район пересечение улиц Малая Кольцевая и пр Бунёдкор",
+      "district": "Чиланзарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/metro-chilanzar-2.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 49
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 145,
+    "fields": {
+      "monitor": 49,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 146,
+    "fields": {
+      "monitor": 49,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 147,
+    "fields": {
+      "monitor": 49,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 50,
+    "fields": {
+      "title": "Ресторан PAUL",
+      "title_uz": "Ресторан PAUL",
+      "title_en": "Ресторан PAUL",
+      "location": "Юнусабадский район проспект Амира Темура",
+      "location_uz": "Юнусабадский район проспект Амира Темура",
+      "location_en": "Юнусабадский район проспект Амира Темура",
+      "district": "Юнусабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/restoran-paul.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 50
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 148,
+    "fields": {
+      "monitor": 50,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 149,
+    "fields": {
+      "monitor": 50,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 150,
+    "fields": {
+      "monitor": 50,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 51,
+    "fields": {
+      "title": "Кардиология",
+      "title_uz": "Кардиология",
+      "title_en": "Кардиология",
+      "location": "Мирзо-Улугбекский район улица Осиё",
+      "location_uz": "Мирзо-Улугбекский район улица Осиё",
+      "location_en": "Мирзо-Улугбекский район улица Осиё",
+      "district": "Мирзо-Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/kardiologiya.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 51
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 151,
+    "fields": {
+      "monitor": 51,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 152,
+    "fields": {
+      "monitor": 51,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 153,
+    "fields": {
+      "monitor": 51,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 52,
+    "fields": {
+      "title": "ТТЗ",
+      "title_uz": "ТТЗ",
+      "title_en": "ТТЗ",
+      "location": "Мирзо Улугбекский район пересечение улиц Юзработ и Гулсанам",
+      "location_uz": "Мирзо Улугбекский район пересечение улиц Юзработ и Гулсанам",
+      "location_en": "Мирзо Улугбекский район пересечение улиц Юзработ и Гулсанам",
+      "district": "Мирзо Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/ttz.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 52
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 154,
+    "fields": {
+      "monitor": 52,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 155,
+    "fields": {
+      "monitor": 52,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 156,
+    "fields": {
+      "monitor": 52,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 53,
+    "fields": {
+      "title": "INDEX",
+      "title_uz": "INDEX",
+      "title_en": "INDEX",
+      "location": "Сергелинский район пересечение улиц Кипчок и Новый Сергели",
+      "location_uz": "Сергелинский район пересечение улиц Кипчок и Новый Сергели",
+      "location_en": "Сергелинский район пересечение улиц Кипчок и Новый Сергели",
+      "district": "Сергелинский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/index.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 53
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 157,
+    "fields": {
+      "monitor": 53,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 158,
+    "fields": {
+      "monitor": 53,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 159,
+    "fields": {
+      "monitor": 53,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 54,
+    "fields": {
+      "title": "Шастри-2",
+      "title_uz": "Шастри-2",
+      "title_en": "Шастри-2",
+      "location": "Мирзо-Улугбекский район пересечение улиц Паркентская и Мирзо-Улугбека",
+      "location_uz": "Мирзо-Улугбекский район пересечение улиц Паркентская и Мирзо-Улугбека",
+      "location_en": "Мирзо-Улугбекский район пересечение улиц Паркентская и Мирзо-Улугбека",
+      "district": "Мирзо-Улугбекский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/shastri-2.mp4",
+      "latitude": 41.31676,
+      "longitude": 69.31589,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 54
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 160,
+    "fields": {
+      "monitor": 54,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 161,
+    "fields": {
+      "monitor": 54,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 162,
+    "fields": {
+      "monitor": 54,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 55,
+    "fields": {
+      "title": "Жами",
+      "title_uz": "Жами",
+      "title_en": "Жами",
+      "location": "Алмазарский район улица Уста Ширин",
+      "location_uz": "Алмазарский район улица Уста Ширин",
+      "location_en": "Алмазарский район улица Уста Ширин",
+      "district": "Алмазарский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/zhami.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 55
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 163,
+    "fields": {
+      "monitor": 55,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 164,
+    "fields": {
+      "monitor": 55,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 165,
+    "fields": {
+      "monitor": 55,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 56,
+    "fields": {
+      "title": "Пожарка-2",
+      "title_uz": "Пожарка-2",
+      "title_en": "Пожарка-2",
+      "location": "Юнусабадский район пересечение улиц Осиё и Шарафа Рашидова",
+      "location_uz": "Юнусабадский район пересечение улиц Осиё и Шарафа Рашидова",
+      "location_en": "Юнусабадский район пересечение улиц Осиё и Шарафа Рашидова",
+      "district": "Юнусабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/pozharka-2.mp4",
+      "latitude": 41.3288,
+      "longitude": 69.27482,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 56
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 166,
+    "fields": {
+      "monitor": 56,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 167,
+    "fields": {
+      "monitor": 56,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 168,
+    "fields": {
+      "monitor": 56,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 57,
+    "fields": {
+      "title": "Ресторан Efendi",
+      "title_uz": "Ресторан Efendi",
+      "title_en": "Ресторан Efendi",
+      "location": "Яшнабадский район пересечение улиц Истикбол и Садик Азимова",
+      "location_uz": "Яшнабадский район пересечение улиц Истикбол и Садик Азимова",
+      "location_en": "Яшнабадский район пересечение улиц Истикбол и Садик Азимова",
+      "district": "Яшнабадский район",
+      "size": "6×3 м",
+      "format": "6×3 м",
+      "type_display": "LED",
+      "resolution": "384×192",
+      "broadcast_hours": "06:00–00:00",
+      "category": "district",
+      "status": "live",
+      "image": "",
+      "video": "videos/restoran-efendi.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 57
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 169,
+    "fields": {
+      "monitor": 57,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 170,
+    "fields": {
+      "monitor": 57,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 171,
+    "fields": {
+      "monitor": 57,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 58,
+    "fields": {
+      "title": "Фархадский",
+      "title_uz": "Фархадский",
+      "title_en": "Фархадский",
+      "location": "Чиланзарский район пересечение улиц Фархадская и Лутфий",
+      "location_uz": "Чиланзарский район пересечение улиц Фархадская и Лутфий",
+      "location_en": "Чиланзарский район пересечение улиц Фархадская и Лутфий",
+      "district": "Чиланзарский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/farhadsky.mp4",
+      "latitude": 41.2862,
+      "longitude": 69.18605,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 58
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 172,
+    "fields": {
+      "monitor": 58,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 173,
+    "fields": {
+      "monitor": 58,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 174,
+    "fields": {
+      "monitor": 58,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 59,
+    "fields": {
+      "title": "6-Роддом",
+      "title_uz": "6-Роддом",
+      "title_en": "6-Роддом",
+      "location": "Мирзо Улугбекский район Пересечение улиц Махтумкули и Шахрисабзская",
+      "location_uz": "Мирзо Улугбекский район Пересечение улиц Махтумкули и Шахрисабзская",
+      "location_en": "Мирзо Улугбекский район Пересечение улиц Махтумкули и Шахрисабзская",
+      "district": "Мирзо Улугбекский район",
+      "size": "9×4 м",
+      "format": "9×4 м",
+      "type_display": "LED",
+      "resolution": "576×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/6-roddom.mp4",
+      "latitude": 41.30948,
+      "longitude": 69.28617,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 59
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 175,
+    "fields": {
+      "monitor": 59,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 176,
+    "fields": {
+      "monitor": 59,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 177,
+    "fields": {
+      "monitor": 59,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 60,
+    "fields": {
+      "title": "Себзор — ТРЦ Riviera",
+      "title_uz": "Себзор — ТРЦ Riviera",
+      "title_en": "Себзор — ТРЦ Riviera",
+      "location": "Алмазарский район Пересечение улиц Нурафшон и Себзор",
+      "location_uz": "Алмазарский район Пересечение улиц Нурафшон и Себзор",
+      "location_en": "Алмазарский район Пересечение улиц Нурафшон и Себзор",
+      "district": "Алмазарский район",
+      "size": "10×4 м",
+      "format": "10×4 м",
+      "type_display": "LED",
+      "resolution": "640×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/riviera.mp4",
+      "latitude": 41.33796,
+      "longitude": 69.25665,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 60
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 178,
+    "fields": {
+      "monitor": 60,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 179,
+    "fields": {
+      "monitor": 60,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 180,
+    "fields": {
+      "monitor": 60,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 61,
+    "fields": {
+      "title": "Кукча — Нурафшон",
+      "title_uz": "Кукча — Нурафшон",
+      "title_en": "Кукча — Нурафшон",
+      "location": "Шайхонтохурский район Пересечение улиц Нурафшон и Кукча Дарвоза",
+      "location_uz": "Шайхонтохурский район Пересечение улиц Нурафшон и Кукча Дарвоза",
+      "location_en": "Шайхонтохурский район Пересечение улиц Нурафшон и Кукча Дарвоза",
+      "district": "Шайхонтохурский район",
+      "size": "10×4 м",
+      "format": "10×4 м",
+      "type_display": "LED",
+      "resolution": "640×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/kukcha-nurafshon.mp4",
+      "latitude": 41.32197,
+      "longitude": 69.20956,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 61
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 181,
+    "fields": {
+      "monitor": 61,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 182,
+    "fields": {
+      "monitor": 61,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 183,
+    "fields": {
+      "monitor": 61,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 62,
+    "fields": {
+      "title": "Сагбон — Нурафшон",
+      "title_uz": "Сагбон — Нурафшон",
+      "title_en": "Сагбон — Нурафшон",
+      "location": "Алмазарский район пересечение улиц Нурафшон и Сагбон.",
+      "location_uz": "Алмазарский район пересечение улиц Нурафшон и Сагбон.",
+      "location_en": "Алмазарский район пересечение улиц Нурафшон и Сагбон.",
+      "district": "Алмазарский район",
+      "size": "10×4 м",
+      "format": "10×4 м",
+      "type_display": "LED",
+      "resolution": "640×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/sagbon-nurafshon.mp4",
+      "latitude": 41.34093,
+      "longitude": 69.2315,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 62
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 184,
+    "fields": {
+      "monitor": 62,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 185,
+    "fields": {
+      "monitor": 62,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 186,
+    "fields": {
+      "monitor": 62,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 63,
+    "fields": {
+      "title": "АЛАЙСКИЙ РЫНОК",
+      "title_uz": "АЛАЙСКИЙ РЫНОК",
+      "title_en": "АЛАЙСКИЙ РЫНОК",
+      "location": "Юнусабадский район Проспект Амира Темура",
+      "location_uz": "Юнусабадский район Проспект Амира Темура",
+      "location_en": "Юнусабадский район Проспект Амира Темура",
+      "district": "Юнусабадский район",
+      "size": "12×5 м",
+      "format": "12×5 м",
+      "type_display": "LED",
+      "resolution": "768×320",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/alayskiy-rynok.mp4",
+      "latitude": 41.32112,
+      "longitude": 69.28232,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 63
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 187,
+    "fields": {
+      "monitor": 63,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 188,
+    "fields": {
+      "monitor": 63,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 189,
+    "fields": {
+      "monitor": 63,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 64,
+    "fields": {
+      "title": "NOVZA",
+      "title_uz": "NOVZA",
+      "title_en": "NOVZA",
+      "location": "Чиланзарский район проспект Бунёдкор. Спуск с моста",
+      "location_uz": "Чиланзарский район проспект Бунёдкор. Спуск с моста",
+      "location_en": "Чиланзарский район проспект Бунёдкор. Спуск с моста",
+      "district": "Чиланзарский район",
+      "size": "12×5 м",
+      "format": "12×5 м",
+      "type_display": "LED",
+      "resolution": "768×320",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/novza.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 64
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 190,
+    "fields": {
+      "monitor": 64,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 191,
+    "fields": {
+      "monitor": 64,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 192,
+    "fields": {
+      "monitor": 64,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 65,
+    "fields": {
+      "title": "Янги Узбекистан",
+      "title_uz": "Янги Узбекистан",
+      "title_en": "Янги Узбекистан",
+      "location": "Ташкентская область Юкаричирчикский район улица Янги Узбекистан",
+      "location_uz": "Ташкентская область Юкаричирчикский район улица Янги Узбекистан",
+      "location_en": "Ташкентская область Юкаричирчикский район улица Янги Узбекистан",
+      "district": "Юкаричирчикский район",
+      "size": "15×6 м",
+      "format": "15×6 м",
+      "type_display": "LED",
+      "resolution": "960×384",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/yangi-uzbekistan.mp4",
+      "latitude": null,
+      "longitude": null,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 65
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 193,
+    "fields": {
+      "monitor": 65,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 194,
+    "fields": {
+      "monitor": 65,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 195,
+    "fields": {
+      "monitor": 65,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 66,
+    "fields": {
+      "title": "Беруний",
+      "title_uz": "Беруний",
+      "title_en": "Беруний",
+      "location": "Алмазарский район пересечение проспекта Беруний и ул. Фараби. Ориентир Ст метро Фараби.",
+      "location_uz": "Алмазарский район пересечение проспекта Беруний и ул. Фараби. Ориентир Ст метро Фараби.",
+      "location_en": "Алмазарский район пересечение проспекта Беруний и ул. Фараби. Ориентир Ст метро Фараби.",
+      "district": "Алмазарский район",
+      "size": "13×5 м",
+      "format": "13×5 м",
+      "type_display": "LED",
+      "resolution": "832×320",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/beruniy.mp4",
+      "latitude": 41.34547,
+      "longitude": 69.20674,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 66
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 196,
+    "fields": {
+      "monitor": 66,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 197,
+    "fields": {
+      "monitor": 66,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 198,
+    "fields": {
+      "monitor": 66,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 67,
+    "fields": {
+      "title": "ЦУМ",
+      "title_uz": "ЦУМ",
+      "title_en": "ЦУМ",
+      "location": "Юнусабадский район пересечение улиц И. Каримова и Ш. Рашидова.",
+      "location_uz": "Юнусабадский район пересечение улиц И. Каримова и Ш. Рашидова.",
+      "location_en": "Юнусабадский район пересечение улиц И. Каримова и Ш. Рашидова.",
+      "district": "Юнусабадский район",
+      "size": "8×4 м",
+      "format": "8×4 м",
+      "type_display": "LED",
+      "resolution": "512×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "city",
+      "status": "live",
+      "image": "",
+      "video": "videos/tsum.mp4",
+      "latitude": 41.3096,
+      "longitude": 69.26744,
+      "is_featured": false,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 67
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 199,
+    "fields": {
+      "monitor": 67,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "4 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 200,
+    "fields": {
+      "monitor": 67,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "6 800 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 201,
+    "fields": {
+      "monitor": 67,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "9 200 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 68,
+    "fields": {
+      "title": "Дружба Народов (2)",
+      "title_uz": "Дружба Народов (2)",
+      "title_en": "Дружба Народов (2)",
+      "location": "Чиланзарский район Пересечение улиц Ислама Каримова и Фурката",
+      "location_uz": "Чиланзарский район Пересечение улиц Ислама Каримова и Фурката",
+      "location_en": "Чиланзарский район Пересечение улиц Ислама Каримова и Фурката",
+      "district": "Чиланзарский район",
+      "size": "18×7 м",
+      "format": "18×7 м",
+      "type_display": "LED",
+      "resolution": "1152×448",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "live",
+      "image": "",
+      "video": "videos/druzhba-narodov-18-7.mp4",
+      "latitude": 41.31152,
+      "longitude": 69.24306,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 68
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 202,
+    "fields": {
+      "monitor": 68,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 203,
+    "fields": {
+      "monitor": 68,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 204,
+    "fields": {
+      "monitor": 68,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 69,
+    "fields": {
+      "title": "Angels Food",
+      "title_uz": "Angels Food",
+      "title_en": "Angels Food",
+      "location": "Мирабадский район Пересечение улиц Ойбек и Шахрисабзская",
+      "location_uz": "Мирабадский район Пересечение улиц Ойбек и Шахрисабзская",
+      "location_en": "Мирабадский район Пересечение улиц Ойбек и Шахрисабзская",
+      "district": "Мирабадский район",
+      "size": "30×4 м",
+      "format": "30×4 м",
+      "type_display": "LED",
+      "resolution": "1920×256",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "live",
+      "image": "",
+      "video": "videos/angels-food.mp4",
+      "latitude": 41.29787,
+      "longitude": 69.27241,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 69
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 205,
+    "fields": {
+      "monitor": 69,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "9 500 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 206,
+    "fields": {
+      "monitor": 69,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "14 500 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 207,
+    "fields": {
+      "monitor": 69,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "19 500 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.monitor",
+    "pk": 70,
+    "fields": {
+      "title": "Хумо Арена",
+      "title_uz": "Хумо Арена",
+      "title_en": "Хумо Арена",
+      "location": "Чиланзарский район пересечение улиц Афросиёб и Бешягач",
+      "location_uz": "Чиланзарский район пересечение улиц Афросиёб и Бешягач",
+      "location_en": "Чиланзарский район пересечение улиц Афросиёб и Бешягач",
+      "district": "Чиланзарский район",
+      "size": "168×10 м",
+      "format": "168×10 м",
+      "type_display": "LED",
+      "resolution": "10752×640",
+      "broadcast_hours": "06:00–00:00",
+      "category": "super",
+      "status": "live",
+      "image": "",
+      "video": "videos/humo-arena-168.mp4",
+      "latitude": 41.30864,
+      "longitude": 69.25316,
+      "is_featured": true,
+      "is_in_ticker": true,
+      "is_active": true,
+      "order": 70
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 208,
+    "fields": {
+      "monitor": 70,
+      "duration": "5 сек",
+      "plays_per_month": "12 480",
+      "price": "18 000 000",
+      "order": 1
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 209,
+    "fields": {
+      "monitor": 70,
+      "duration": "10 сек",
+      "plays_per_month": "6 240",
+      "price": "28 000 000",
+      "order": 2
+    }
+  },
+  {
+    "model": "common.monitorpricerow",
+    "pk": 210,
+    "fields": {
+      "monitor": 70,
+      "duration": "15 сек",
+      "plays_per_month": "4 160",
+      "price": "38 000 000",
+      "order": 3
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 1,
+    "fields": {
+      "name": "Samsung",
+      "logo": "partners/1724749722645-SAMSUNGverq.png",
+      "order": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 2,
+    "fields": {
+      "name": "Okori",
+      "logo": "partners/1747301275888-Logo_twoline.png",
+      "order": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 3,
+    "fields": {
+      "name": "Pepsi",
+      "logo": "partners/1724768606938-PEPSI.png",
+      "order": 3,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 4,
+    "fields": {
+      "name": "Yandex",
+      "logo": "partners/1724768733535-YANDEX.png",
+      "order": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 5,
+    "fields": {
+      "name": "Huawei",
+      "logo": "partners/1724769684856-HUAWEI.png",
+      "order": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 6,
+    "fields": {
+      "name": "Tinkoff",
+      "logo": "partners/1724769858846-TINKOFFver1.png",
+      "order": 6,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 7,
+    "fields": {
+      "name": "Lay's",
+      "logo": "partners/1697556746604-Lays-Logo.png",
+      "order": 7,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 8,
+    "fields": {
+      "name": "Uzbekistan Airways",
+      "logo": "partners/1724827330563-Uzbekistan_Airways_logo.svg.png",
+      "order": 8,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 9,
+    "fields": {
+      "name": "MacCoffee",
+      "logo": "partners/1697555205584-mac.png",
+      "order": 9,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 10,
+    "fields": {
+      "name": "DI Sport",
+      "logo": "partners/1724827454931-DISPORT.png",
+      "order": 10,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 11,
+    "fields": {
+      "name": "AKFA Imzo",
+      "logo": "partners/1724827672323-AKFAIMZO.png",
+      "order": 11,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 12,
+    "fields": {
+      "name": "Castrol",
+      "logo": "partners/1724828103927-CASTROL.png",
+      "order": 12,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 13,
+    "fields": {
+      "name": "Humans",
+      "logo": "partners/1724828174722-HUMANS.png",
+      "order": 13,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 14,
+    "fields": {
+      "name": "Nestle",
+      "logo": "partners/1724828429202-NESTLE.png",
+      "order": 14,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 15,
+    "fields": {
+      "name": "AKFA",
+      "logo": "partners/1724828510964-AKFA.png",
+      "order": 15,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 16,
+    "fields": {
+      "name": "KFC",
+      "logo": "partners/1724828606823-KFC.png",
+      "order": 16,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 17,
+    "fields": {
+      "name": "Payme",
+      "logo": "partners/1724828717579-PAYME.png",
+      "order": 17,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 18,
+    "fields": {
+      "name": "TBC Bank",
+      "logo": "partners/1724828847952-TBC.png",
+      "order": 18,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 19,
+    "fields": {
+      "name": "Dell",
+      "logo": "partners/1724829104122-DELL.png",
+      "order": 19,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 20,
+    "fields": {
+      "name": "Asus",
+      "logo": "partners/1697552649840-ASUS_Logo.svg.png",
+      "order": 20,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 21,
+    "fields": {
+      "name": "Henkel",
+      "logo": "partners/1724829302571-HENKEL.png",
+      "order": 21,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 22,
+    "fields": {
+      "name": "Anorbank",
+      "logo": "partners/1724829445253-ANORBANK.png",
+      "order": 22,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 23,
+    "fields": {
+      "name": "Hilton",
+      "logo": "partners/1697552114878-589a46f65aa6293a4aac48b4.png",
+      "order": 23,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 24,
+    "fields": {
+      "name": "Trilliant",
+      "logo": "partners/1697552236678-tril.png",
+      "order": 24,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 25,
+    "fields": {
+      "name": "OFB",
+      "logo": "partners/1724829987627-OFB.png",
+      "order": 25,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 26,
+    "fields": {
+      "name": "Artel",
+      "logo": "partners/1697551975156-artel-logo-DF8829ABD2-seeklogo.com.png",
+      "order": 26,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 27,
+    "fields": {
+      "name": "Piramit",
+      "logo": "partners/1724829666184-PIRAMIT.png",
+      "order": 27,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 28,
+    "fields": {
+      "name": "Ledokol",
+      "logo": "partners/1724830094440-LEDOKOL.png",
+      "order": 28,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 29,
+    "fields": {
+      "name": "DAS",
+      "logo": "partners/1724830210780-DAS.png",
+      "order": 29,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 30,
+    "fields": {
+      "name": "MFA",
+      "logo": "partners/1724830458332-MCA.png",
+      "order": 30,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 31,
+    "fields": {
+      "name": "Ipak Yo'li Banki",
+      "logo": "partners/1697550370666-logo_uz.png",
+      "order": 31,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 32,
+    "fields": {
+      "name": "Lukoil",
+      "logo": "partners/1724830577065-LUKOIL.png",
+      "order": 32,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 33,
+    "fields": {
+      "name": "Click",
+      "logo": "partners/1719833301479-click1.png",
+      "order": 33,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 34,
+    "fields": {
+      "name": "Skechers",
+      "logo": "partners/1697551184904-Skechers.png",
+      "order": 34,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 35,
+    "fields": {
+      "name": "Bosch",
+      "logo": "partners/1697551051585-Bosch-logo.png",
+      "order": 35,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 36,
+    "fields": {
+      "name": "Ipoteka Bank",
+      "logo": "partners/1724830671032-IPOTEKA.png",
+      "order": 36,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 37,
+    "fields": {
+      "name": "Sberbank",
+      "logo": "partners/1697556950175-Sberbank_Logo_2020.png",
+      "order": 37,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 38,
+    "fields": {
+      "name": "BYD",
+      "logo": "partners/1724735386985-byd-logo-1-01.jpg",
+      "order": 38,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 39,
+    "fields": {
+      "name": "Makro",
+      "logo": "partners/1719834595761-makro.png",
+      "order": 39,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 40,
+    "fields": {
+      "name": "Korzinka",
+      "logo": "partners/1719834539664-korzinka.png",
+      "order": 40,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 41,
+    "fields": {
+      "name": "Coca-Cola",
+      "logo": "partners/1719833573207-coca-cola.png",
+      "order": 41,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 42,
+    "fields": {
+      "name": "Xiaomi",
+      "logo": "partners/1724830821803-XIAOMI.png",
+      "order": 42,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 43,
+    "fields": {
+      "name": "STADA",
+      "logo": "partners/1724831087005-STADA.png",
+      "order": 43,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 44,
+    "fields": {
+      "name": "Hyundai",
+      "logo": "partners/1724831239741-hyundai.png",
+      "order": 44,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 45,
+    "fields": {
+      "name": "Agrobank",
+      "logo": "partners/1724831320591-AGRO.png",
+      "order": 45,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 46,
+    "fields": {
+      "name": "Ziraat Bank",
+      "logo": "partners/1724831466502-ZIRAAT.png",
+      "order": 46,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.partner",
+    "pk": 47,
+    "fields": {
+      "name": "Qanot Sharq",
+      "logo": "partners/1724831771375-QANOT.png",
+      "order": 47,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 1,
+    "fields": {
+      "question_ru": "Какой минимальный срок размещения?",
+      "question_uz": "Joylashtirishning minimal muddati qancha?",
+      "question_en": "What is the minimum placement period?",
+      "answer_ru": "Минимальный срок размещения — 15 дней. Точные пакеты по срокам и частоте показов мы подберём под вашу задачу и бюджет.",
+      "answer_uz": "Joylashtirishning minimal muddati — 15 kun. Muddat va namoyish chastotasi bo'yicha aniq paketlarni vazifangiz va byudjetingizga moslab tanlaymiz.",
+      "answer_en": "The minimum placement period is 15 days. We will tailor exact packages of duration and display frequency to your task and budget.",
+      "order": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 2,
+    "fields": {
+      "question_ru": "Вы помогаете с дизайном ролика?",
+      "question_uz": "Rolik dizayni bilan yordam berasizmi?",
+      "question_en": "Do you help with the video creative?",
+      "answer_ru": "Сам ролик мы не изготавливаем, но проверим готовый материал на корректность и соответствие требованиям Закона о рекламе.",
+      "answer_uz": "Rolikning o'zini biz tayyorlamaymiz, lekin tayyor materialni to'g'riligi va Reklama to'g'risidagi qonun talablariga muvofiqligini tekshiramiz.",
+      "answer_en": "We don't produce the clip itself, but we check your finished material for correctness and compliance with the Advertising Law.",
+      "order": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 3,
+    "fields": {
+      "question_ru": "Можно ли выбрать конкретные экраны?",
+      "question_uz": "Muayyan ekranlarni tanlash mumkinmi?",
+      "question_en": "Can I choose specific screens?",
+      "answer_ru": "Конечно. Вы выбираете локации сами или мы предлагаем готовый медиаплан под нужную аудиторию и районы.",
+      "answer_uz": "Albatta. Joylashuvlarni o'zingiz tanlaysiz yoki biz kerakli auditoriya va tumanlar uchun tayyor mediareja taklif qilamiz.",
+      "answer_en": "Of course. You pick the locations yourself, or we propose a ready-made media plan for your target audience and districts.",
+      "order": 3,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 4,
+    "fields": {
+      "question_ru": "Как подтверждается, что реклама вышла в эфир?",
+      "question_uz": "Reklama efirga chiqqani qanday tasdiqlanadi?",
+      "question_en": "How do you confirm the ads went on air?",
+      "answer_ru": "После завершения кампании мы присылаем видеоотчёт и статистику выходов по каждому экрану.",
+      "answer_uz": "Kampaniya tugagandan so'ng biz har bir ekran bo'yicha videohisobot va efirga chiqishlar statistikasini yuboramiz.",
+      "answer_en": "After the campaign ends we send a video report and broadcast statistics for every screen.",
+      "order": 4,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 5,
+    "fields": {
+      "question_ru": "В каких форматах принимаются макеты?",
+      "question_uz": "Maketlar qanday formatlarda qabul qilinadi?",
+      "question_en": "What creative formats do you accept?",
+      "answer_ru": "Мы принимаем видеоролики и статичные изображения. Точные технические требования вышлем вместе с медиапланом.",
+      "answer_uz": "Biz videoroliklar va statik tasvirlarni qabul qilamiz. Aniq texnik talablarni mediareja bilan birga yuboramiz.",
+      "answer_en": "We accept video clips and static images. We send the exact technical requirements together with the media plan.",
+      "order": 5,
+      "is_active": true
+    }
+  },
+  {
+    "model": "common.faq",
+    "pk": 6,
+    "fields": {
+      "question_ru": "Работаете ли вы за пределами Ташкента?",
+      "question_uz": "Toshkentdan tashqarida ishlaysizmi?",
+      "question_en": "Do you work outside Tashkent?",
+      "answer_ru": "Сеть экранов сосредоточена в Ташкенте. По размещению в других городах уточняйте у менеджера.",
+      "answer_uz": "Ekranlar tarmog'i Toshkentda jamlangan. Boshqa shaharlarda joylashtirish bo'yicha menejerdan so'rang.",
+      "answer_en": "Our screen network is concentrated in Tashkent. For placement in other cities, please check with a manager.",
+      "order": 6,
+      "is_active": true
+    }
+  }
+]

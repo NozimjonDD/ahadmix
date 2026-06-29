@@ -1,92 +1,131 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
-from common import models
-from common.models import *
-
-
-def index(request):
-    model = TestModel.objects.all()
-
-    last_title = model.last().title
-    last_count = model.last().count
-
-    data = {
-        "test1": 312121212,
-        "count": last_count,
-        "title": last_title,
-    }
-    return render(request, 'common/index.html', context=data)
+from .models import (
+    SiteSettings, StatisticCard, WhyUsCard, ProcessCard,
+    Monitor, Partner, FAQ,
+)
 
 
-from django.shortcuts import render
-from .models import Card, Outdoor, WhyUsCard, ProcessCard, StatisticCard, Monitor
+class IndexView(TemplateView):
+    # Template: common/templates/common/index.html
+    template_name = "common/index.html"
 
+    # ---------- serializers ----------
+    @staticmethod
+    def _serialize_card(m):
+        return {
+            "n": m.title,
+            "en": m.title_en or m.title,
+            "uz": m.title_uz or m.title,
+            "loc": m.location,
+            "locEn": m.location_en or m.location,
+            "locUz": m.location_uz or m.location,
+            "tag": m.size,
+            "tagEn": m.size,
+            "video": m.video.url if m.video else "",
+            "photo": m.image.url if m.image else "",
+            "soon": m.status == "soon",
+        }
 
-def card(request):
-    cards = Card.objects.all()
-    outdoors = Outdoor.objects.all()
-    why_us_cards = WhyUsCard.objects.filter(is_active=True).order_by('order')
-    processcard = ProcessCard.objects.all().order_by('number')
-    statisticcard = StatisticCard.objects.all().order_by('order')
-    monitor = Monitor.objects.all().order_by('title')
+    @staticmethod
+    def _serialize_details(m):
+        media = ""
+        if m.video:
+            media = m.video.url
+        elif m.image:
+            media = m.image.url
 
-    first_card = cards.first()
-    last_card = cards.last()
-    first_outdoor = outdoors.first()
-    last_outdoor = outdoors.last()
+        return {
+            "n": m.title,
+            "a": m.location,
+            "d": m.district or "—",
+            "sz": m.size,
+            "f": m.format or m.size,
+            "res": m.resolution or "—",
+            "hrs": m.broadcast_hours or "—",
+            "media": media,
+            "soon": m.status == "soon",
+            "live": m.status == "live",
+            "rows": [
+                [r.duration, r.plays_per_month, r.price]
+                for r in m.price_rows.all()
+            ],
+        }
 
-    first_count = first_card.count if first_card else 0
-    last_count = last_card.count if last_card else 0
-    last_word = last_outdoor.word if last_outdoor else ""
+    # ---------- context ----------
+    def get_context_data(self, **kwargs):
+        ctx = super().get_context_data(**kwargs)
 
-    first_title = first_outdoor.title if first_outdoor else ""
-    last_title = last_outdoor.title if last_outdoor else ""
+        # Settings (singleton)
+        settings_obj = SiteSettings.load()
+        ctx["settings"] = settings_obj
 
-    first_icon = first_outdoor.icon if first_outdoor else ""
-    last_icon = last_outdoor.icon if last_outdoor else ""
+        # Section content
+        ctx["statisticcard"] = StatisticCard.objects.all()
+        ctx["why_us_cards"] = WhyUsCard.objects.all()
+        ctx["processcard"] = ProcessCard.objects.all()
 
-    card_data = {
-        "first_count": first_count,
-        "last_count": last_count,
-        "last_title": last_title,
-        "first_title": first_title,
-        "word": {
-            "now": last_word
-        },
-        "title": {
-            "new": first_title,
-            "now": last_title
-        },
-        "icon": last_icon,
-        "steps": first_icon,
-        "why_us_cards": why_us_cards,
-        "processcard": processcard,
-        "statisticcard": statisticcard,
-        "monitor": monitor
-    }
+        # Monitors
+        all_monitors = (
+            Monitor.objects
+            .filter(is_active=True)
+            .prefetch_related("price_rows")
+        )
+        featured = all_monitors.filter(is_featured=True)
+        ticker = all_monitors.filter(is_in_ticker=True)
+        on_map = all_monitors.exclude(latitude__isnull=True).exclude(longitude__isnull=True)
 
+        ctx["featured_monitors"] = featured
+        ctx["all_monitors"] = all_monitors
 
-    context = {
-        'card': card_data,  # Bu tepadagi 'card.cards', 'card.partners' kabi eski kodlarni ishlatadi
-        'monitor': monitor,  # Bu pastdagi '{% for item in monitor %}' tsiklini ishlatadi
-        'why_us_cards': why_us_cards,
-        'processcard': processcard,
-        'statisticcard': statisticcard,
-    }
+        # Backwards-compat with older template references
+        ctx["card"] = {"monitors": featured, "monitor": all_monitors}
 
-    print(context)  # Tekshirish uchun terminalga chiqarish
-    return render(request, 'common/index.html', context=context)
+        # Partners & FAQs
+        partners = Partner.objects.filter(is_active=True)
+        faqs = FAQ.objects.filter(is_active=True)
+        ctx["partners"] = partners
+        ctx["faqs"] = faqs
 
+        # ---------- JSON payloads for JS ----------
+        ctx["ticker_names_json"] = list(ticker.values_list("title", flat=True))
 
-# def outdoor(request):
-#     outdoors = Outdoor.objects.all()
-#
-#     last_word = outdoors.last().word
-#     last_title= outdoors.last().title
-#
-#     outdoor= {
-#         "word":last_word,
-#         "title":last_title,
-#     }
-#     print(outdoors)
-#     return render(request, 'common/index.html', context=outdoor)
+        ctx["featured_monitors_json"] = [self._serialize_card(m) for m in featured]
+
+        ctx["partners_json"] = [
+            {"n": p.name, "u": p.logo.url if p.logo else ""}
+            for p in partners
+        ]
+
+        ctx["faqs_json"] = [
+            {
+                "q": f.question_ru,
+                "qUz": f.question_uz or f.question_ru,
+                "qEn": f.question_en or f.question_ru,
+                "a": f.answer_ru,
+                "aUz": f.answer_uz or f.answer_ru,
+                "aEn": f.answer_en or f.answer_ru,
+            }
+            for f in faqs
+        ]
+
+        ctx["map_points_json"] = [
+            [m.latitude, m.longitude, m.title, m.size]
+            for m in on_map
+        ]
+
+        ctx["all_monitors_json"] = [
+            [
+                m.title,
+                m.size,
+                m.location,
+                (m.video.url if m.video else (m.image.url if m.image else "")),
+            ]
+            for m in all_monitors
+        ]
+
+        ctx["screen_details_json"] = [
+            self._serialize_details(m) for m in all_monitors
+        ]
+
+        return ctx

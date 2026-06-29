@@ -1,12 +1,11 @@
+from django.conf import settings
+from django.conf.urls.static import static
+from django.contrib import admin
 from django.urls import path
 
-from . import views
-
-app_name = 'common'
+from common.views import IndexView
 
 urlpatterns = [
-     # path('', views.index, name='index'),
-     path('', views.card,name='card' ),
-
-     # path('old',views.outdoor,name='outdoor' ),
+    path("", IndexView.as_view(), name="index"),
 ]
+

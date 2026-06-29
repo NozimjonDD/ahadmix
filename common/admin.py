@@ -1,97 +1,81 @@
 from django.contrib import admin
-
-from .models import District, Region, TestModel, Card, Outdoor, WhyUsCard, StatisticCard
-from .models import ProcessCard
-
-from django.contrib import admin
-from .models import Monitor, PricePackage
+from .models import (
+    SiteSettings, StatisticCard, WhyUsCard, ProcessCard,
+    Monitor, MonitorPriceRow, Partner, FAQ
+)
 
 
+@admin.register(SiteSettings)
+class SiteSettingsAdmin(admin.ModelAdmin):
+    fieldsets = (
+        ("Aloqa", {"fields": ("phone", "email", "telegram_link")}),
+        ("Manzil", {"fields": ("address_ru", "address_uz", "address_en")}),
+        ("Hero stats", {"fields": ("screens_count", "years_on_market", "brand_partners_count")}),
+        ("Hujjatlar", {"fields": ("kp_pdf",)}),
+    )
 
-class DistrictInline(admin.TabularInline):
-    model = District
-    extra = 0
-    prepopulated_fields = {'slug': ('name',)}
-    fields = ('name', 'slug', 'is_active', 'sort_order')
+    def has_add_permission(self, request):
+        return not SiteSettings.objects.exists()
 
-
-@admin.register(Region)
-class RegionAdmin(admin.ModelAdmin):
-    list_display = ('name', 'code', 'is_active', 'sort_order', 'updated_at')
-    list_editable = ('is_active', 'sort_order')
-    list_filter = ('is_active',)
-    search_fields = ('name', 'code', 'slug')
-    prepopulated_fields = {'slug': ('name',)}
-    inlines = (DistrictInline,)
-
-
-@admin.register(District)
-class DistrictAdmin(admin.ModelAdmin):
-    list_display = ('name', 'region', 'is_active', 'sort_order', 'updated_at')
-    list_editable = ('is_active', 'sort_order')
-    list_filter = ('region', 'is_active')
-    search_fields = ('name', 'slug', 'region__name')
-    prepopulated_fields = {'slug': ('name',)}
-    autocomplete_fields = ('region',)
-
-
-@admin.register(TestModel)
-class TestModelAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'count' )
-
-
-@admin.register(Card)
-class CardAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'count', )
-
-
-@admin.register(Outdoor)
-class OutdoorAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'word','icon' )
+    def has_delete_permission(self, request, obj=None):
+        return False
 
 
 @admin.register(StatisticCard)
 class StatisticCardAdmin(admin.ModelAdmin):
-    list_display = ["title_ru", "count", "order"]
-    list_editable = ["count", "order"]
-    ordering = ["order"]
+    list_display = ("order", "count", "title_ru", "plus")
+    list_editable = ("count", "title_ru", "plus")
+    ordering = ("order",)
+
 
 @admin.register(WhyUsCard)
 class WhyUsCardAdmin(admin.ModelAdmin):
-    list_display = ('order', 'title', 'is_active', 'updated_at')
-    list_editable = ('order', 'is_active')
-    list_filter = ('is_active',)
-    search_fields = ('title', 'description')
-    ordering = ('order',)
-    list_display_links = ('title',)
+    list_display = ("order", "title_ru")
+    list_editable = ("title_ru",)
+    ordering = ("order",)
 
 
 @admin.register(ProcessCard)
 class ProcessCardAdmin(admin.ModelAdmin):
-    list_display = ['number', 'title', 'created_at']
-    list_display_links = ['title']
-    search_fields = ['title', 'description']
-    list_filter = ['number']
+    list_display = ("number", "title_ru")
+    ordering = ("number",)
+
+
+class MonitorPriceRowInline(admin.TabularInline):
+    model = MonitorPriceRow
+    extra = 1
 
 
 @admin.register(Monitor)
 class MonitorAdmin(admin.ModelAdmin):
-    list_display = ["title", "region", "screen_size"]
-    search_fields = ["title", "address"]
+    list_display = ("order", "title", "size", "category", "status",
+                    "is_featured", "is_in_ticker", "is_active")
+    list_editable = ("is_featured", "is_in_ticker", "is_active", "status")
+    list_filter = ("category", "status", "is_featured", "is_in_ticker", "is_active")
+    search_fields = ("title", "title_uz", "title_en", "location")
+    inlines = [MonitorPriceRowInline]
+    fieldsets = (
+        ("Asosiy", {"fields": ("title", "title_uz", "title_en", "category", "status")}),
+        ("Manzil", {"fields": ("location", "location_uz", "location_en", "district",
+                               "latitude", "longitude")}),
+        ("Texnik", {"fields": ("size", "format", "type_display", "resolution",
+                               "broadcast_hours")}),
+        ("Media", {"fields": ("image", "video")}),
+        ("Ko'rinish", {"fields": ("is_featured", "is_in_ticker", "is_active", "order")}),
+    )
 
 
-@admin.register(PricePackage)
-class PricePackageAdmin(admin.ModelAdmin):
-    list_display = ["led_screen", "duration", "price"]
+@admin.register(Partner)
+class PartnerAdmin(admin.ModelAdmin):
+    list_display = ("order", "name", "is_active")
+    list_editable = ("is_active",)
+    list_filter = ("is_active",)
+    search_fields = ("name",)
 
 
-
-
-
-
-
-
-
-
-
-
+@admin.register(FAQ)
+class FAQAdmin(admin.ModelAdmin):
+    list_display = ("order", "question_ru", "is_active")
+    list_editable = ("is_active",)
+    list_filter = ("is_active",)
+    search_fields = ("question_ru",)
