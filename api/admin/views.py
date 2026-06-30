@@ -7,7 +7,7 @@ from common.models import FAQ
 
 class AdminFAQListAPIView(generics.ListAPIView):
     queryset = FAQ.objects.all()
-    serializer_class = FAQSerializers
+    serializer_class = FAQListSerializers
     permission_classes = [AllowAny,]
     # permission_classes = [permissions.IsAdminUse
 
