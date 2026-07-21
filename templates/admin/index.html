@@ -1,0 +1,78 @@
+{% extends 'admin/base.html' %}
+
+{% load i18n unfold %}
+
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+    {% include "unfold/helpers/site_branding.html" %}
+{% endblock %}
+
+{% block content %}
+    {# ---------- Headline metrics ---------- #}
+    <div class="grid grid-cols-1 gap-4 mb-8 md:grid-cols-2 lg:grid-cols-4">
+        {% for kpi in kpis %}
+            {% component "unfold/components/card.html" with href=kpi.link icon=kpi.icon %}
+                <div class="flex flex-col">
+                    <span class="text-font-subtle-light text-sm dark:text-font-subtle-dark">
+                        {{ kpi.title }}
+                    </span>
+
+                    <span class="font-semibold text-3xl text-font-important-light tracking-tight dark:text-font-important-dark">
+                        {{ kpi.value }}
+                    </span>
+
+                    <span class="mt-1 text-font-subtle-light text-xs dark:text-font-subtle-dark">
+                        {{ kpi.meta }}
+                    </span>
+                </div>
+            {% endcomponent %}
+        {% endfor %}
+    </div>
+
+    {# ---------- Every model, grouped ---------- #}
+    {% for group in model_groups %}
+        <h2 class="font-semibold mb-4 text-font-important-light text-base dark:text-font-important-dark">
+            {{ group.title }}
+        </h2>
+
+        <div class="grid grid-cols-1 gap-4 mb-8 md:grid-cols-2 lg:grid-cols-3">
+            {% for card in group.cards %}
+                {% component "unfold/components/card.html" with href=card.link %}
+                    <div class="flex flex-row items-center gap-4">
+                        <span class="material-symbols-outlined text-primary-600 text-4xl! dark:text-primary-500">
+                            {{ card.icon }}
+                        </span>
+
+                        <div class="flex flex-col grow">
+                            <span class="font-semibold text-font-important-light dark:text-font-important-dark">
+                                {{ card.title }}
+                            </span>
+                            <span class="text-font-subtle-light text-xs dark:text-font-subtle-dark">
+                                {{ card.meta }}
+                            </span>
+                        </div>
+
+                        <div class="flex flex-row items-center gap-1">
+                            <span class="font-semibold text-font-important-light text-lg dark:text-font-important-dark">
+                                {{ card.count }}
+                            </span>
+                            <span class="material-symbols-outlined text-font-subtle-light text-base! dark:text-font-subtle-dark">
+                                chevron_right
+                            </span>
+                        </div>
+                    </div>
+                {% endcomponent %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+    {# ---------- Default app list + recent actions ---------- #}
+    <div class="flex flex-col lg:flex-row lg:gap-8">
+        <div class="grow">
+            {% include "unfold/helpers/app_list_default.html" %}
+        </div>
+
+        {% include "unfold/helpers/history.html" %}
+    </div>
+{% endblock %}

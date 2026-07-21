@@ -136,6 +136,7 @@ UNFOLD = {
     "SITE_HEADER": "Ahadmix",
     "SITE_SUBHEADER": "Boshqaruv paneli",
     "SITE_URL": "/",
+    "DASHBOARD_CALLBACK": "common.dashboard.dashboard_callback",
     "SHOW_HISTORY": True,
     "SHOW_VIEW_ON_SITE": True,
     "SHOW_BACK_BUTTON": True,
