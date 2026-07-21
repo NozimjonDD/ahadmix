@@ -79,3 +79,11 @@ class FAQAdmin(admin.ModelAdmin):
     list_editable = ("is_active",)
     list_filter = ("is_active",)
     search_fields = ("question_ru",)
+
+
+@admin.register(MonitorPriceRow)
+class MonitorPriceRowAdmin(admin.ModelAdmin):
+    list_display = ('monitor', 'duration', 'plays_per_month', 'price', 'order')
+    list_filter = ('monitor',)
+    search_fields = ('monitor__title', 'duration')
+    ordering = ['order']
