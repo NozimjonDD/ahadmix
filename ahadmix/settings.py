@@ -32,11 +32,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'rest_framework',
+
     'common',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -85,8 +88,6 @@ TIME_ZONE = env('TIME_ZONE', default='UTC')
 
 USE_I18N = True
 
-USE_L10N = True
-
 USE_TZ = True
 
 
@@ -99,20 +100,29 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+REST_FRAMEWORK = {
+    # Endpoints under /api/admin/ are staff-only unless a view opts out.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAdminUser',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 50,
+}
+
 
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Library Admin",
+    "site_title": "Ahadmix Admin",
 
     # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_header": "Library",
+    "site_header": "Ahadmix",
 
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Library",
+    "site_brand": "Ahadmix",
 
     # Logo to use for your site, must be present in static files, used for brand on top left
-    "site_logo": "books/img/logo.png",
+    "site_logo": None,
 
     # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)
     "login_logo": None,
@@ -127,10 +137,10 @@ JAZZMIN_SETTINGS = {
     "site_icon": None,
 
     # Welcome text on the login screen
-    "welcome_sign": "Welcome to the library",
+    "welcome_sign": "Ahadmix boshqaruv paneli",
 
     # Copyright on the footer
-    "copyright": "Acme Library Ltd",
+    "copyright": "Ahadmix Group",
 
     # List of model admins to search from the search bar, search bar omitted if excluded
     # If you want to use a single search field you dont need to use a list, you can use a simple string
@@ -150,13 +160,13 @@ JAZZMIN_SETTINGS = {
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
 
         # external url that opens in a new window (Permissions can be added)
-        {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
+        {"name": "Sayt", "url": "/", "new_window": True},
 
         # model admin to link to (Permissions checked against model)
         {"model": "auth.User"},
 
         # App with dropdown menu to all its models pages (Permissions checked against models)
-        {"app": "books"},
+        {"app": "common"},
     ],
 
     #############
@@ -165,7 +175,6 @@ JAZZMIN_SETTINGS = {
 
     # Additional links to include in the user menu on the top right ("app" url type is not allowed)
     "usermenu_links": [
-        {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
         {"model": "auth.user"}
     ],
 
@@ -186,17 +195,10 @@ JAZZMIN_SETTINGS = {
     "hide_models": [],
 
     # List of apps (and/or models) to base side menu ordering off of (does not need to contain all apps/models)
-    "order_with_respect_to": ["auth", "books", "books.author", "books.book"],
+    "order_with_respect_to": ["common", "common.sitesettings", "common.monitor", "auth"],
 
     # Custom links to append to app groups, keyed on app name
-    "custom_links": {
-        "books": [{
-            "name": "Make Messages",
-            "url": "make_messages",
-            "icon": "fas fa-comments",
-            "permissions": ["books.view_book"]
-        }]
-    },
+    "custom_links": {},
 
     # Custom icons for side menu apps/models See https://fontawesome.com/icons?d=gallery&m=free&v=5.0.0,5.0.1,5.0.10,5.0.11,5.0.12,5.0.13,5.0.2,5.0.3,5.0.4,5.0.5,5.0.6,5.0.7,5.0.8,5.0.9,5.1.0,5.1.1,5.2.0,5.3.0,5.3.1,5.4.0,5.4.1,5.4.2,5.13.0,5.12.0,5.11.2,5.11.1,5.10.0,5.9.0,5.8.2,5.8.1,5.7.2,5.7.1,5.7.0,5.6.3,5.5.0,5.4.2
     # for the full list of 5.13.0 free icon classes
@@ -204,6 +206,14 @@ JAZZMIN_SETTINGS = {
         "auth": "fas fa-users-cog",
         "auth.user": "fas fa-user",
         "auth.Group": "fas fa-users",
+        "common.SiteSettings": "fas fa-cog",
+        "common.Monitor": "fas fa-tv",
+        "common.MonitorPriceRow": "fas fa-tags",
+        "common.Partner": "fas fa-handshake",
+        "common.FAQ": "fas fa-question-circle",
+        "common.StatisticCard": "fas fa-chart-bar",
+        "common.WhyUsCard": "fas fa-star",
+        "common.ProcessCard": "fas fa-list-ol",
     },
     # Icons that are used when one is not manually specified
     "default_icon_parents": "fas fa-chevron-circle-right",

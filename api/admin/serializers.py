@@ -1,5 +1,3 @@
-from tracemalloc import Statistic
-
 from rest_framework import serializers
 
 from common.models import FAQ, SiteSettings, StatisticCard, WhyUsCard, ProcessCard, Monitor, MonitorPriceRow, Partner
@@ -50,6 +48,12 @@ class AdminWhyUsCardCreateSerializers(serializers.ModelSerializer):
 
 # ProcessCard
 class AdminProcessCardListSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = ProcessCard
+        fields = '__all__'
+
+
+class AdminProcessCardCreateSerializers(serializers.ModelSerializer):
     class Meta:
         model = ProcessCard
         fields = '__all__'
