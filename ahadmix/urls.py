@@ -4,6 +4,9 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
+    # Provides 'set_language' — the endpoint the admin language switcher posts to.
+    path('i18n/', include('django.conf.urls.i18n')),
+
     path('admin/', admin.site.urls),
     path('', include('common.urls')),
     path('api/', include('api.urls')),

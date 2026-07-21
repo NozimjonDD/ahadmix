@@ -47,6 +47,9 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    # LocaleMiddleware must sit after SessionMiddleware (it reads the language
+    # from the session) and before CommonMiddleware.
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -88,7 +91,19 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-LANGUAGE_CODE = env('LANGUAGE_CODE', default='en-us')
+LANGUAGE_CODE = env('LANGUAGE_CODE', default='uz')
+
+# Languages offered in the admin language switcher. Django ships admin UI
+# translations for all three, so the admin chrome (buttons, filters, messages)
+# follows the selection.
+LANGUAGES = [
+    ('uz', "O'zbekcha"),
+    ('ru', 'Русский'),
+    ('en', 'English'),
+]
+
+# Project-level .po files live here (for translating our own strings).
+LOCALE_PATHS = [BASE_DIR / 'locale']
 
 TIME_ZONE = env('TIME_ZONE', default='UTC')
 
@@ -124,6 +139,15 @@ UNFOLD = {
     "SHOW_HISTORY": True,
     "SHOW_VIEW_ON_SITE": True,
     "SHOW_BACK_BUTTON": True,
+
+    # Language switcher in the admin header dropdown. Reads settings.LANGUAGES
+    # and POSTs to the 'set_language' view wired up in ahadmix/urls.py.
+    "SHOW_LANGUAGES": True,
+    "LANGUAGE_FLAGS": {
+        "uz": "🇺🇿",
+        "ru": "🇷🇺",
+        "en": "🇬🇧",
+    },
 
     "COLORS": {
         # Tailwind-style palette; Unfold expects space-separated RGB channels.
