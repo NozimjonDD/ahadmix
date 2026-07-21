@@ -13,7 +13,11 @@ class AdminFAQCreateSerializers(serializers.ModelSerializer):
     class Meta:
         model = FAQ
         fields = '__all__'
-# SiteSettings
+
+
+
+
+# SiteSettings CRUD
 class AdminSiteSettingsListSerializers(serializers.ModelSerializer):
     class Meta:
         model = SiteSettings
@@ -23,7 +27,10 @@ class AdminSiteSettingsCreateSerializers(serializers.ModelSerializer):
     class Meta:
         model = SiteSettings
         fields = '__all__'
-# StatisticCard
+
+
+
+# StatisticCard CRUD
 class AdminStatisticCardListSerializers(serializers.ModelSerializer):
     class Meta:
         model = StatisticCard
@@ -34,7 +41,7 @@ class AdminSiteStatisticCardCreateSerializers(serializers.ModelSerializer):
         model = StatisticCard
         fields = '__all__'
 
-# WhyUsCard
+# WhyUsCard CRUD
 class AdminWhyUsCardListSerializers(serializers.ModelSerializer):
     class Meta:
         model = WhyUsCard
@@ -46,7 +53,7 @@ class AdminWhyUsCardCreateSerializers(serializers.ModelSerializer):
         model = WhyUsCard
         fields = '__all__'
 
-# ProcessCard
+# ProcessCard CRUD
 class AdminProcessCardListSerializers(serializers.ModelSerializer):
     class Meta:
         model = ProcessCard
@@ -58,7 +65,7 @@ class AdminProcessCardCreateSerializers(serializers.ModelSerializer):
         model = ProcessCard
         fields = '__all__'
 
-# Monitor
+# Monitor CRUD
 class AdminMonitorListSerializers(serializers.ModelSerializer):
     class Meta:
         model = Monitor
@@ -69,7 +76,7 @@ class AdminMonitorCreateSerializers(serializers.ModelSerializer):
         model = Monitor
         fields = '__all__'
 
-# MonitorPriceRow
+# MonitorPriceRow CRUD
 
 class AdminMonitorPriceRowListSerializers(serializers.ModelSerializer):
     class Meta:
@@ -82,7 +89,7 @@ class AdminMonitorPriceRowCreateSerializers(serializers.ModelSerializer):
         model = MonitorPriceRow
         fields = '__all__'
 
-# Partner
+# Partner CRUD
 
 class AdminPartnerListSerializers(serializers.ModelSerializer):
     class Meta:
@@ -96,4 +103,3 @@ class AdminPartnerCreateSerializers(serializers.ModelSerializer):
         model = Partner
         fields = '__all__'
 
-# MONITORS CRUD
