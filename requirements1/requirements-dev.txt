@@ -1,0 +1,5 @@
+# Development-only dependencies (type stubs for IDE / mypy).
+
+#   pip install -r requirements.txt -r requirements-dev.txt
+django-stubs>=6.0.0
+djangorestframework-stubs>=3.17.0
